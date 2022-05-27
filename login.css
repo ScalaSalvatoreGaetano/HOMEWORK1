@@ -1,0 +1,102 @@
+/*SCALA SALVATORE GAETANO O46001744*/
+
+
+body{
+    background-color:rgb(212, 208, 208);
+    font-family:sans-serif;
+    
+}
+main{
+    display:flex;
+    justify-content:center;
+    margin-top:70px;
+}
+
+form{
+    
+    background-color:white;
+    width:560px;
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    
+    height:650px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.box
+{
+    
+    
+    background-image:url("img/city.jpg");
+    background-size:cover;
+    
+    
+    width:380px;
+    height:650px;
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+input{
+    text-align:center;
+    margin:10px;
+    font-size:1.1em;
+    padding:5px;
+    border-radius:10px;
+}
+
+input[type="submit"]{
+    padding:8px;
+    background-color:blueviolet;
+    color:white;
+    border:1px solid white;
+}
+
+input:hover{
+    cursor:pointer;
+    transition:1.1s;
+    transform:scale(1.1);
+}
+
+.link_iscriviti{
+    text-decoration:none;
+    padding:8px;
+    background-color:blueviolet;
+    color:white;
+    border:1px solid white;
+    border-radius:10px;
+}
+
+.link_iscriviti:hover{
+    cursor:pointer;
+    transition:1.1s;
+    transform:scale(1.1);
+}
+
+.errore{ color: red; }
+
+/***************/
+
+
+@media(max-width:550px)
+{
+    .box{
+        display:none;
+    }
+
+    form[name="nome_form"]{
+        width:400px;
+        height:570px;
+        border-radius:15px;
+    }
+}

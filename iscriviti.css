@@ -1,0 +1,60 @@
+body{
+    background-image:url("img/city.jpg");
+    background-size:cover;
+    height: 95vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    font-family: 'Nunito', sans-serif;
+}
+
+main{
+    border-radius:20px;
+    background-color:white;
+    width:35vw;
+    height:85vh; 
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+input{
+    text-align:center;
+    font-size:22px;
+    border-radius:10px;
+    border:1px solid black;
+}
+
+input:hover,  a[href="login.php"]:hover{
+    cursor:pointer;
+    transition:1.1s;
+    transform:scale(1.04);
+}
+
+.pass_style1, .pass_style2 { margin-left:25px; }
+
+input[value="iscriviti"], a[href="login.php"]{    
+    padding:8px;
+    background-color:blueviolet;
+    color:white;
+    border:1px solid white;
+    border-radius:10px;
+    margin:10px;
+}
+
+a[href="login.php"]{ text-decoration:none; }
+.two_button{ display:flex; }
+
+
+@media(max-width:550px)
+{
+    @media(max-width:550px)
+    {
+        body { zoom:105%; }
+        .dark_main_iscriviti { width:400px; }
+    }
+}

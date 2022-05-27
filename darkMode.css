@@ -1,0 +1,52 @@
+/*SCALA SALVATORE GAETANO O46001744*/
+
+form img, #sidebar #darkImg{
+    margin-top:10px;
+    width:50px;
+    height:50px;
+} 
+
+
+form img:hover, #sidebar #darkImg:hover{  cursor:pointer; }
+
+.darkBody{ background-color:#2E2E2E; }
+
+.darkBox, .darkForm{ box-shadow:none; }
+
+.darkBox{ background-image:url("img/dmLogin.jpg"); }
+
+.darkForm{
+    color:white;
+    background-color:#171717;
+}
+
+.darkButton{
+    background-color:white;
+    color:black;
+}
+
+.darkNav{ background-color:#171717; }
+
+.darkHomeBody{
+    background-color:#2E2E2E;
+    background-image:none;
+}
+/**/
+.darkBodyInfo{
+    background-image:none;
+    background-color:#2E2E2E;
+}
+
+/**/
+.dm{
+    width:60px;
+    margin-top:10px;
+}
+
+.dm:hover{ cursor:pointer; }
+
+.db_iscriviti{
+    background-image:url("img/wp.jpg");
+}
+
+
